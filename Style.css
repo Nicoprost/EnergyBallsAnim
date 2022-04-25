@@ -14,14 +14,14 @@ body{
 }
 .form{
     position: absolute;
-    top:-30%;
+    top:-20%;
     left: -50%;
     transform: translate(50px,-50px);
     width: 500px;
     height: 500px;
     border: solid 2px blue;
     border-radius:64% 36% 58% 42% / 40% 30% 70% 60%;
-    animation: fond 10s linear infinite;
+    animation: fond 7.4s linear infinite;
     box-shadow:30px 30px 15px 1px,
                 inset 50px 50px 50px 0;
 }
@@ -48,14 +48,15 @@ body{
 }
 .energy {
     position: relative;
+    top : -100px;
     width: 300px;
     height: 300px;
 }
 .energy span
 {
     position: absolute;
-    width: calc(350px + var(--i));
-    height: calc(350px + var(--i));
+    width: calc(500px + var(--i));
+    height: calc(500px + var(--i));
     background: var(--clr);
     border-radius: 50%;
     transform-origin: calc(100px + var(--i));
