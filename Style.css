@@ -14,7 +14,7 @@ body{
 }
 .form{
     position: absolute;
-    top:-20%;
+    top:-10%;
     left: -50%;
     transform: translate(50px,-50px);
     width: 500px;
